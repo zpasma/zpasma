@@ -1,0 +1,1111 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ---------- THIS IS MY WEBSITE ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0px 0px 0px 0px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-color:white;
+}
+
+a {
+	text-decoration: none;
+	font-family: neue-haas-unica,sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 24pt;
+	line-height: 1.4;
+	padding: 0px 20px;
+	margin: 10px auto 10px auto;
+	color: black;
+	position: sticky;
+}
+
+hr.solid_black {
+	border: 1px solid black;
+	margin: 0px;
+}
+
+hr.solid_blue {
+	border: 1px solid blue;
+	margin: 0px;
+}
+
+hr.solid_white {
+	border: 0.25px solid white;
+}
+
+.dot {
+	height: 25px;
+	width: 25px;
+	background-color: blue;
+	border-radius: 50%;
+	margin: 10px 0px 0px 20px;
+	display: inline-block;
+  }
+
+#images {
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#images_small {
+	width: 90%;
+	display: block;
+	float:middle;
+}
+
+.zoom {
+	transition: transform 3s;
+}
+
+.zoom:hover {
+	transform: scale(1.3);
+	float:right;
+}
+
+.zoom:focus {
+	transform: scale(2.0);
+}
+
+#row{
+	height: 100%;
+}
+
+#layout_a{
+	float:left;
+	width: 100%;
+	background:white;
+	height: 100%;
+	overflow: scroll;
+}
+
+#layout_b{
+	float:left;
+	width: 100%;
+	background:white;
+	height: 100%;
+	overflow: scroll;
+}
+
+#drawing_a{
+	float:left;
+	width: 100%;
+	background:white;
+	height: 100%;
+	overflow: scroll;
+}
+
+#drawing_b{
+	float:left;
+	width: 100%;
+	background:white;
+	height: 100%;
+	overflow: scroll;
+}
+
+#object_a{
+	float:left;
+	width: 100%;
+	background:white;
+	height: 100%;
+	overflow: scroll;
+}
+
+#object_b{
+	float:left;
+	width: 100%;
+	background:white;
+	height: 100%;
+	overflow: scroll;
+}
+
+#building_a{
+	float:left;
+	width: 100%;
+	background:white;
+	height: 100%;
+	overflow: scroll;
+}
+
+#building_b{
+	float:left;
+	width: 100%;
+	background:white;
+	height: 100%;
+	overflow: scroll;
+}
+
+#name_a{
+	float:left;
+	width: 100%;
+	background:white;
+	height: 100%;
+	overflow: scroll;
+}
+
+#name_b{
+	float:left;
+	width: 100%;
+	background:white;
+	height: 100%;
+	overflow: scroll;
+}
+
+#name_a::-webkit-scrollbar{
+	display: none;
+}
+
+#column_middle::-webkit-scrollbar{
+	display: none;
+}
+
+#column_right::-webkit-scrollbar{
+	display: none;
+}
+
+a.email:link, a:visited {
+	font-family: neue-haas-unica,sans-serif;
+	font-weight: 400;
+	font-style: regular;
+	font-size: 24pt;
+	line-height: 1.4;
+	padding: 10px 30px 30px 20px;
+	margin: 0px auto 0px auto;
+	text-decoration: none;
+	display: inline-block;
+	position: sticky;
+	top: 5000px;
+	float:right;
+	color: blue;
+}
+
+a.email:hover {
+	color: RGB(0,255,0);
+}
+
+a.layout:link, a:visited {
+	font-family: neue-haas-unica,sans-serif;
+	font-weight: 400;
+	font-style: regular;
+	font-size: 30pt;
+	line-height: 1.4;
+	padding: 10px 10px 20px 20px;
+	margin: 0px auto 0px auto;
+	text-decoration: none;
+	display: inline-block;
+	position: sticky;
+	top:0;
+	color:blue;
+}
+
+a.layout:hover {
+	color: magenta;
+}
+
+a.layout:focus{
+	color: magenta;
+}
+
+a.layout:focus ~ #row > #layout_a{
+	width: 50%;
+}
+
+a.layout:focus ~ #row > #layout_b{
+	width: 50%;
+}
+
+a.layout:focus ~ #row > #drawing_a{
+	width: 0%;
+}
+
+a.layout:focus ~ #row > #drawing_b{
+	width: 0%;
+}
+
+a.layout:focus ~ #row > #object_a{
+	width: 0%;
+}
+
+a.layout:focus ~ #row > #object_b{
+	width: 0%;
+}
+
+a.layout:focus ~ #row > #building_a{
+	width: 0%;
+}
+
+a.layout:focus ~ #row > #building_b{
+	width: 0%;
+}
+
+a.layout:focus ~ #row > #name_a{
+	width: 0%;
+}
+
+a.layout:focus ~ #row > #name_b{
+	width: 0%;
+}
+
+a.drawing:link, a:visited {
+	font-family: neue-haas-unica,sans-serif;
+	font-weight: 400;
+	font-style: regular;
+	font-size: 24pt;
+	line-height: 1.4;
+	padding: 10px 10px 20px 10px;
+	margin: 0px auto 0px auto;
+	text-decoration: none;
+	display: inline-block;
+	position: sticky;
+	top: 0;
+	color:blue;
+}
+
+a.drawing:hover {
+	color: magenta;
+}
+
+a.drawing:focus{
+	color: magenta;
+}
+
+a.drawing:focus ~ #row > #layout_a{
+	width: 0%;
+}
+
+a.drawing:focus ~ #row > #layout_b{
+	width: 0%;
+}
+
+a.drawing:focus ~ #row > #drawing_a{
+	width: 30%;
+}
+
+a.drawing:focus ~ #row > #drawing_b{
+	width: 70%;
+}
+
+a.drawing:focus ~ #row > #object_a{
+	width: 0%;
+}
+
+a.drawing:focus ~ #row > #object_b{
+	width: 0%;
+}
+
+a.drawing:focus ~ #row > #building_a{
+	width: 0%;
+}
+
+a.drawing:focus ~ #row > #building_b{
+	width: 0%;
+}
+
+a.drawing:focus ~ #row > #name_a{
+	width: 0%;
+}
+
+a.drawing:focus ~ #row > #name_b{
+	width: 0%;
+}
+
+a.object:link, a:visited {
+	font-family: neue-haas-unica,sans-serif;
+	font-weight: 400;
+	font-style: regular;
+	font-size: 24pt;
+	line-height: 1.4;
+	padding: 10px 10px 10px 10px;
+	margin: 1px auto 1px auto;
+	text-decoration: none;
+	display: inline-block;
+	position: sticky;
+	color:blue;
+}
+
+a.object:hover {
+	color:magenta;
+}
+
+a.object:focus{
+	color: magenta;
+}
+
+a.object:focus ~ #row > #layout_a{
+	width: 0%;
+}
+
+a.object:focus ~ #row > #layout_b{
+	width: 0%;
+}
+
+a.object:focus ~ #row > #drawing_a{
+	width: 0%;
+}
+
+a.object:focus ~ #row > #drawing_b{
+	width: 0%;
+}
+
+a.object:focus ~ #row > #object_a{
+	width: 30%;
+}
+
+a.object:focus ~ #row > #object_b{
+	width: 70%;
+}
+
+a.object:focus ~ #row > #building_a{
+	width: 0%;
+}
+
+a.object:focus ~ #row > #building_b{
+	width: 0%;
+}
+
+a.object:focus ~ #row > #name_a{
+	width: 0%;
+}
+
+a.object:focus ~ #row > #name_b{
+	width: 0%;
+}
+
+a.building:link, a:visited { 
+	font-family: neue-haas-unica,sans-serif;
+	font-weight: 400;
+	font-style: regular;
+	font-size: 24pt;
+	line-height: 1.4;
+	padding: 10px 10px 10px 10px;
+	margin: 1px auto 1px auto;
+	text-decoration: none;
+	display: inline-block;
+	position: sticky;
+	color:blue;
+}
+
+a.building:hover {
+	color: magenta;
+}
+
+a.building:focus{
+	color: magenta;
+}
+
+a.building:focus ~ #row > #layout_a{
+	width: 0%;
+}
+
+a.building:focus ~ #row > #layout_b{
+	width: 0%;
+}
+
+a.building:focus ~ #row > #drawing_a{
+	width: 0%;
+}
+
+a.building:focus ~ #row > #drawing_b{
+	width: 0%;
+}
+
+a.building:focus ~ #row > #object_a{
+	width: 0%;
+}
+
+a.building:focus ~ #row > #object_b{
+	width: 0%;
+}
+
+a.building:focus ~ #row > #building_a{
+	width: 30%;
+}
+
+a.building:focus ~ #row > #building_b{
+	width: 70%;
+}
+
+a.building:focus ~ #row > #name_a{
+	width: 0%;
+}
+
+a.building:focus ~ #row > #name_b{
+	width: 0%;
+}
+
+a.name:link, a:visited {
+	font-family: neue-haas-unica,sans-serif;
+	font-weight: 400;
+	font-style: regular;
+	font-size: 24pt;
+	line-height: 1.4;
+	padding: 20px 30px 10px 10px;
+	margin: 0px auto 0px auto;
+	text-decoration: none;
+	display: inline-block;
+	position: sticky;
+	float: right;
+	overflow: hidden;
+	color:blue;
+}
+
+a.name:hover {
+	color:  RGB(0,255,0);
+}
+
+a.name:focus{
+	color: RGB(0,255,0);
+}
+
+a.name:focus ~ #row > #layout_a{
+	width: 0%;
+}
+
+a.name:focus ~ #row > #layout_b{
+	width: 0%;
+}
+
+a.name:focus ~ #row > #drawing_a{
+	width: 0%;
+}
+
+a.name:focus ~ #row > #drawing_b{
+	width: 0%;
+}
+
+a.name:focus ~ #row > #object_a{
+	width: 0%;
+}
+
+a.name:focus ~ #row > #object_b{
+	width: 0%;
+}
+
+a.name:focus ~ #row > #building_a{
+	width: 0%;
+}
+
+a.name:focus ~ #row > #building_b{
+	width: 0%;
+}
+
+a.name:focus ~ #row > #name_a{
+	width: 50%;
+}
+
+a.name:focus ~ #row > #name_b{
+	width: 50%;
+}
+
+a.project:link, a:visited { 
+	font-family: neue-haas-unica,sans-serif;
+	font-weight: 500;
+	font-style: regular;
+	font-size: 24pt;
+	line-height: 1.4;
+	text-decoration: none;
+	display: inline-block;
+	color:blue;
+}
+
+a.project:hover {
+	color: magenta;
+}
+
+a.project:focus{
+	color: magenta;
+}
+
+a.quote:link, a:visited {
+	font-family: neue-haas-unica,sans-serif;
+	font-weight: 400;
+	font-style: regular;
+	font-size: 24pt;
+	line-height: 1.4;
+	padding: 20px 20px;
+	margin: 10px auto 10px auto;
+	text-decoration: none;
+	display: inline-block;
+	background-color: white;
+}
+
+a {
+	position: sticky;
+	top:0px;
+}
+
+h1 {
+	font-family: neue-haas-unica,sans-serif;
+	font-weight: 500;
+	font-style: italic;
+   	font-size:12pt;
+  	line-height: 1.4;
+	padding: 10px 20px;
+   	margin: auto;
+	color: black;
+	background-color: white;
+	border: solid black;
+	border-width: 2px 2px;
+	width: 15%;
+	position: sticky;
+	top:400px;
+	display: flex;
+	justify-content: center;
+	text-align:inherit;
+}
+
+h2 {
+	font-family: neue-haas-unica,sans-serif;
+	font-weight: 500;
+	font-style: italic;
+   	font-size:12pt;
+  	line-height: 1.4;
+	padding: 10px 20px;
+   	margin: auto;
+	color: black;
+	background-color: white;
+	border: solid black;
+	border-width: 2px 2px;
+	width: 20%;
+	position: sticky;
+	top:400px;
+	display: flex;
+	justify-content: center;
+	text-align:inherit;
+}
+
+h3 {
+	font-family: neue-haas-unica,sans-serif;
+	font-weight: 500;
+	font-style: italic;
+   	font-size:12pt;
+  	line-height: 1.4;
+	padding: 10px 20px;
+   	margin: auto;
+	color: black;
+	background-color: white;
+	border: solid black;
+	border-width: 2px 2px;
+	width: 20%;
+	position: sticky;
+	top:400px;
+	display: flex;
+	justify-content: center;
+	text-align:inherit;
+}
+
+h4 {
+	display:table;
+	font-family: neue-haas-unica,sans-serif;
+	font-weight: 500;
+	font-style: normal;
+   	font-size:24pt;
+  	line-height: 1.4;
+	padding: 5px 2px;
+   	margin: auto;
+	color: white;
+	background-color: RGB(0,255,0);
+	width: 33%;
+	position: sticky;
+	top:400px;
+	display: flex;
+	justify-content: center;
+	text-align:inherit;
+}
+
+h5 {
+	font-family: neue-haas-unica,sans-serif;
+	font-weight: 500;
+	font-style: normal;
+   	font-size:24pt;
+  	line-height: 1.4;
+	padding: 0px 20px;
+   	margin: auto;
+	color: white;
+	background-color: magenta;
+	width: auto;
+}
+
+p {
+	font-family: neue-haas-unica,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 24pt;
+	line-height: 1.4;
+	padding: 0px 20px;
+	margin: 10px auto 10px auto;
+	color: black;
+}
+
+@media (max-width: 800px) {
+
+	h1 {
+		font-size: 15pt;
+	}
+
+	h2 {
+		font-size: 15pt;
+		position: static;
+		top: 0;
+	}
+
+	h4 {
+		font-size: 15pt;
+		position: sticky;
+		top:400px;
+	}
+
+	p {
+		font-size: 15pt;
+	}
+
+	a {
+		font-size: 15pt;
+	}
+
+	a.layout:link, a:visited {
+		font-size: 15pt;
+	
+	}
+
+	a.drawing:link, a:visited {
+		font-size: 15pt;
+	
+	}
+
+	a.object:link, a:visited {
+		font-size: 15pt;
+	
+	}
+
+	a.building:link, a:visited {
+		font-size: 15pt;
+	
+	}
+
+	a.name:link, a:visited {
+		font-size: 15pt;
+	
+	}
+
+	a.project:link, a:visited {
+		font-size: 15pt;
+	
+	}
+
+	a.layout:link, a:visited {
+		font-family: neue-haas-unica,sans-serif;
+		font-weight: 400;
+		font-style: regular;
+		font-size: 18pt;
+		line-height: 1.4;
+		padding: 6px 10px 20px 20px;
+		margin: 0px auto 0px auto;
+		text-decoration: none;
+		display: inline-block;
+		position: sticky;
+		top:0;
+		color:blue;
+	}
+	
+	a.layout:hover {
+		color: magenta;
+	}
+	
+	a.layout:focus{
+		color: magenta;
+	}
+	
+	a.layout:focus ~ #row > #layout_a{
+		width: 100%;
+	}
+	
+	a.layout:focus ~ #row > #layout_b{
+		width: 0%;
+	}
+	
+	a.layout:focus ~ #row > #drawing_a{
+		width: 0%;
+	}
+	
+	a.layout:focus ~ #row > #drawing_b{
+		width: 0%;
+	}
+	
+	a.layout:focus ~ #row > #object_a{
+		width: 0%;
+	}
+	
+	a.layout:focus ~ #row > #object_b{
+		width: 0%;
+	}
+	
+	a.layout:focus ~ #row > #building_a{
+		width: 0%;
+	}
+	
+	a.layout:focus ~ #row > #building_b{
+		width: 0%;
+	}
+	
+	a.layout:focus ~ #row > #name_a{
+		width: 0%;
+	}
+	
+	a.layout:focus ~ #row > #name_b{
+		width: 0%;
+	}
+	
+	a.drawing:link, a:visited {
+		font-family: neue-haas-unica,sans-serif;
+		font-weight: 400;
+		font-style: regular;
+		font-size: 15pt;
+		line-height: 1.4;
+		padding: 10px 10px 20px 10px;
+		margin: 0px auto 0px auto;
+		text-decoration: none;
+		display: inline-block;
+		position: sticky;
+		top: 0;
+		color:blue;
+	}
+	
+	a.drawing:hover {
+		color: magenta;
+	}
+	
+	a.drawing:focus{
+		color: magenta;
+	}
+	
+	a.drawing:focus ~ #row > #layout_a{
+		width: 0%;
+	}
+	
+	a.drawing:focus ~ #row > #layout_b{
+		width: 0%;
+	}
+	
+	a.drawing:focus ~ #row > #drawing_a{
+		width: 0%;
+	}
+	
+	a.drawing:focus ~ #row > #drawing_b{
+		width: 100%;
+	}
+	
+	a.drawing:focus ~ #row > #object_a{
+		width: 0%;
+	}
+	
+	a.drawing:focus ~ #row > #object_b{
+		width: 0%;
+	}
+	
+	a.drawing:focus ~ #row > #building_a{
+		width: 0%;
+	}
+	
+	a.drawing:focus ~ #row > #building_b{
+		width: 0%;
+	}
+	
+	a.drawing:focus ~ #row > #name_a{
+		width: 0%;
+	}
+	
+	a.drawing:focus ~ #row > #name_b{
+		width: 0%;
+	}
+	
+	a.object:link, a:visited {
+		font-family: neue-haas-unica,sans-serif;
+		font-weight: 400;
+		font-style: regular;
+		font-size: 15pt;
+		line-height: 1.4;
+		padding: 10px 10px 10px 10px;
+		margin: 1px auto 1px auto;
+		text-decoration: none;
+		display: inline-block;
+		position: sticky;
+		color:blue;
+	}
+	
+	a.object:hover {
+		color:magenta;
+	}
+	
+	a.object:focus{
+		color: magenta;
+	}
+	
+	a.object:focus ~ #row > #layout_a{
+		width: 0%;
+	}
+	
+	a.object:focus ~ #row > #layout_b{
+		width: 0%;
+	}
+	
+	a.object:focus ~ #row > #drawing_a{
+		width: 0%;
+	}
+	
+	a.object:focus ~ #row > #drawing_b{
+		width: 0%;
+	}
+	
+	a.object:focus ~ #row > #object_a{
+		width: 0%;
+	}
+	
+	a.object:focus ~ #row > #object_b{
+		width: 100%;
+	}
+	
+	a.object:focus ~ #row > #building_a{
+		width: 0%;
+	}
+	
+	a.object:focus ~ #row > #building_b{
+		width: 0%;
+	}
+	
+	a.object:focus ~ #row > #name_a{
+		width: 0%;
+	}
+	
+	a.object:focus ~ #row > #name_b{
+		width: 0%;
+	}
+	
+	a.building:link, a:visited { 
+		font-family: neue-haas-unica,sans-serif;
+		font-weight: 400;
+		font-style: regular;
+		font-size: 15pt;
+		line-height: 1.4;
+		padding: 10px 10px 10px 10px;
+		margin: 1px auto 1px auto;
+		text-decoration: none;
+		display: inline-block;
+		position: sticky;
+		color:blue;
+	}
+	
+	a.building:hover {
+		color: magenta;
+	}
+	
+	a.building:focus{
+		color: magenta ;
+	}
+	
+	a.building:focus ~ #row > #layout_a{
+		width: 0%;
+	}
+	
+	a.building:focus ~ #row > #layout_b{
+		width: 0%;
+	}
+	
+	a.building:focus ~ #row > #drawing_a{
+		width: 0%;
+	}
+	
+	a.building:focus ~ #row > #drawing_b{
+		width: 0%;
+	}
+	
+	a.building:focus ~ #row > #object_a{
+		width: 0%;
+	}
+	
+	a.building:focus ~ #row > #object_b{
+		width: 0%;
+	}
+	
+	a.building:focus ~ #row > #building_a{
+		width: 0%;
+	}
+	
+	a.building:focus ~ #row > #building_b{
+		width: 100%;
+	}
+	
+	a.building:focus ~ #row > #name_a{
+		width: 0%;
+	}
+	
+	a.building:focus ~ #row > #name_b{
+		width: 0%;
+	}
+	
+	a.name:link, a:visited {
+		font-family: neue-haas-unica,sans-serif;
+		font-weight: 400;
+		font-style: regular;
+		font-size: 15pt;
+		line-height: 1.4;
+		padding: 10px 30px 10px 10px;
+		margin: 0px auto 0px auto;
+		text-decoration: none;
+		display: inline-block;
+		position: sticky;
+		color:blue;
+	}
+	
+	a.name:hover {
+		color:  RGB(0,255,0);
+	}
+	
+	a.name:focus{
+		color: RGB(0,255,0);
+	}
+	
+	a.name:focus ~ #row > #layout_a{
+		width: 0%;
+	}
+	
+	a.name:focus ~ #row > #layout_b{
+		width: 0%;
+	}
+	
+	a.name:focus ~ #row > #drawing_a{
+		width: 0%;
+	}
+	
+	a.name:focus ~ #row > #drawing_b{
+		width: 0%;
+	}
+	
+	a.name:focus ~ #row > #object_a{
+		width: 0%;
+	}
+	
+	a.name:focus ~ #row > #object_b{
+		width: 0%;
+	}
+	
+	a.name:focus ~ #row > #building_a{
+		width: 0%;
+	}
+	
+	a.name:focus ~ #row > #building_b{
+		width: 0%;
+	}
+	
+	a.name:focus ~ #row > #name_a{
+		width: 100%;
+	}
+	
+	a.name:focus ~ #row > #name_b{
+		width: 0%;
+	}
+
+	#images {
+		width: 100%;
+		position: static;
+	}
+
+	#column_left{
+		float: none;
+		width: 100%;
+		background: blue;
+		height: 100%;
+		overflow: visible;
+	}
+	#column_right{
+		float: none;
+		width: 100%;
+		background: blue;
+		height: 100%;
+		overflow: visible;
+	}
+	
+	.dot {
+		height: 15px;
+		width: 15px;
+		background-color:blue;
+		border-radius: 50%;
+		margin: 10px 0px 0px 20px;
+		display: inline-block;
+	  }
+
+	  a.quote:link, a:visited {
+		font-family: neue-haas-unica,sans-serif;
+		font-weight: 400;
+		font-style: regular;
+		font-size: 15pt;
+		line-height: 1.4;
+		padding: 20px 20px;
+		margin: 10px auto 10px auto;
+		text-decoration: none;
+		display: inline-block;
+		background-color: white;
+	}
+
+}
