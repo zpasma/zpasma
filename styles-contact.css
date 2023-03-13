@@ -1045,21 +1045,91 @@ p {
 		width: 100%;
 		position: static;
 	}
+	
+	#row{
+	height: 100%;
+	}
 
-	#column_left{
-		float: none;
+	#layout_a{
+		float:left;
 		width: 100%;
-		background: blue;
+		background:white;
 		height: 100%;
-		overflow: visible;
+		overflow: scroll;
 	}
-	#column_right{
-		float: none;
+
+	#layout_b{
+		float:left;
 		width: 100%;
-		background: blue;
+		background:white;
 		height: 100%;
-		overflow: visible;
+		overflow: scroll;
 	}
+
+	#drawing_a{
+		float:left;
+		width: 100%;
+		background:white;
+		height: 100%;
+		overflow: scroll;
+	}
+
+	#drawing_b{
+		float:left;
+		width: 100%;
+		background:white;
+		height: 100%;
+		overflow: scroll;
+	}
+
+	#object_a{
+		float:left;
+		width: 100%;
+		background:white;
+		height: 100%;
+		overflow: scroll;
+	}
+
+	#object_b{
+		float:left;
+		width: 100%;
+		background:white;
+		height: 100%;
+		overflow: scroll;
+	}
+
+	#building_a{
+		float:left;
+		width: 100%;
+		background:white;
+		height: 100%;
+		overflow: scroll;
+	}
+
+	#building_b{
+		float:left;
+		width: 100%;
+		background:white;
+		height: 100%;
+		overflow: scroll;
+	}
+
+	#name_a{
+		float:left;
+		width: 100%;
+		background:white;
+		height: 100%;
+		overflow: scroll;
+	}
+
+	#name_b{
+		float:left;
+		width: 100%;
+		background:white;
+		height: 100%;
+		overflow: scroll;
+	}
+
 	
 	.dot {
 		height: 15px;
