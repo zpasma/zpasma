@@ -701,56 +701,56 @@ p {
 @media (max-width: 800px) {
 
 	h1 {
-		font-size: 24pt;
+		font-size: 20pt;
 	}
 
 	h2 {
-		font-size: 24pt;
+		font-size: 20pt;
 		position: static;
 		top: 0;
 	}
 
 	h4 {
-		font-size: 24pt;
+		font-size: 20pt;
 		position: sticky;
 		top:400px;
 	}
 
 	p {
-		font-size: 24pt;
+		font-size: 20pt;
 	}
 
 	a {
-		font-size: 24pt;
+		font-size: 20pt;
 	}
 
 	a.layout:link, a:visited {
-		font-size: 24pt;
+		font-size: 20pt;
 	
 	}
 
 	a.drawing:link, a:visited {
-		font-size: 24pt;
+		font-size: 20pt;
 	
 	}
 
 	a.object:link, a:visited {
-		font-size: 24pt;
+		font-size: 20pt;
 	
 	}
 
 	a.building:link, a:visited {
-		font-size: 24pt;
+		font-size: 20pt;
 	
 	}
 
 	a.name:link, a:visited {
-		font-size: 24pt;
+		font-size: 20pt;
 	
 	}
 
 	a.project:link, a:visited {
-		font-size: 24pt;
+		font-size: 20pt;
 	
 	}
 
@@ -758,7 +758,7 @@ p {
 		font-family: neue-haas-unica,sans-serif;
 		font-weight: 400;
 		font-style: regular;
-		font-size: 30pt;
+		font-size: 20pt;
 		line-height: 1.4;
 		padding: 6px 10px 20px 20px;
 		margin: 0px auto 0px auto;
@@ -821,7 +821,7 @@ p {
 		font-family: neue-haas-unica,sans-serif;
 		font-weight: 400;
 		font-style: regular;
-		font-size: 24pt;
+		font-size: 20pt;
 		line-height: 1.4;
 		padding: 10px 10px 20px 10px;
 		margin: 0px auto 0px auto;
@@ -884,7 +884,7 @@ p {
 		font-family: neue-haas-unica,sans-serif;
 		font-weight: 400;
 		font-style: regular;
-		font-size: 24pt;
+		font-size: 20pt;
 		line-height: 1.4;
 		padding: 10px 10px 10px 10px;
 		margin: 1px auto 1px auto;
@@ -946,7 +946,7 @@ p {
 		font-family: neue-haas-unica,sans-serif;
 		font-weight: 400;
 		font-style: regular;
-		font-size: 24pt;
+		font-size: 20pt;
 		line-height: 1.4;
 		padding: 10px 10px 10px 10px;
 		margin: 1px auto 1px auto;
@@ -1008,7 +1008,7 @@ p {
 		font-family: neue-haas-unica,sans-serif;
 		font-weight: 400;
 		font-style: regular;
-		font-size: 24pt;
+		font-size: 20pt;
 		line-height: 1.4;
 		padding: 10px 30px 10px 10px;
 		margin: 0px auto 0px auto;
@@ -1099,7 +1099,7 @@ p {
 		font-family: neue-haas-unica,sans-serif;
 		font-weight: 400;
 		font-style: regular;
-		font-size: 24pt;
+		font-size: 20pt;
 		line-height: 1.4;
 		padding: 20px 20px;
 		margin: 10px auto 10px auto;
