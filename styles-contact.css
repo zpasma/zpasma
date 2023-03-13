@@ -724,31 +724,6 @@ p {
 		font-size: 22pt;
 	}
 
-	a.layout:link, a:visited {
-		font-size: 22pt;
-	
-	}
-
-	a.drawing:link, a:visited {
-		font-size: 22pt;
-	
-	}
-
-	a.object:link, a:visited {
-		font-size: 22pt;
-	
-	}
-
-	a.building:link, a:visited {
-		font-size: 22pt;
-	
-	}
-
-	a.name:link, a:visited {
-		font-size: 22pt;
-	
-	}
-
 	a.project:link, a:visited {
 		font-size: 22pt;
 	
